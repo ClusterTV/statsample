@@ -54,10 +54,6 @@ class Module
 end
 
 class Array
-  def sum
-    inject(:+)
-  end
-
   def mean
     sum.fdiv(size)
   end
